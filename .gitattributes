@@ -1,0 +1,6 @@
+* text=auto
+*.bat text eol=crlf
+Dockerfile text eol=lf
+PWSE64/Release/*/gs text eol=lf
+*.so binary
+*.dll binary

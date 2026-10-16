@@ -1,0 +1,5 @@
+#!/bin/bash
+cd "$(dirname "$0")" || exit 1
+export LD_PRELOAD="$PWD/pwse_loader.so${LD_PRELOAD:+:$LD_PRELOAD}"
+# argv[0] stays "./gs": the engine process keeps its usual name.
+exec -a "./gs" "./gs.real" "$@"

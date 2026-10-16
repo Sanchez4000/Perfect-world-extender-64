@@ -1,0 +1,3 @@
+LIBRARY FTDriver_64
+EXPORTS
+    ?CreateFTManager@@YAPEAVIFTManager@@HHH@Z = FTDriver_64_real.?CreateFTManager@@YAPEAVIFTManager@@HHH@Z
